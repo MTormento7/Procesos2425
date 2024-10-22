@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "jasmine-node": "^3.0.0"
+  },
+  "name": "procesos2425",
+  "version": "1.0.0",
+  "description": "Proyecto Procesos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "testW": "node_modules\\.bin\\jasmine-node servidor",
+    "test": "./node_modules/.bin/jasmine-node servidor"
+  },
+  "author": "",
+  "license": "ISC"
+}
