@@ -41,7 +41,7 @@ app.get("/usuarioActivo/:nick",function(request,response){
 
 
 app.listen(PORT, () => { 
-    console.log('App está escuchando en el puerto ${PORT}'); 
+    console.log('App está escuchando en el puerto 3000'); 
     console.log('Ctrl+C para salir'); 
 });
 
